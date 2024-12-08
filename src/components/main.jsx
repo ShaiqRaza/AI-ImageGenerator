@@ -16,7 +16,7 @@ const AIGeneratedContent = (
   }, [prompt])
 
   return (
-    <div className='h-[75%] w-full flex justify-center items-center'>
+    <div className='h-full w-full flex justify-center items-center'>
       <div className={
         onload?"block":"hidden"
       }> <div className='bg-blue-700 rounded-full md:h-16 md:w-16 sm:h-14 sm:w-14 h-12 w-12 animate-ping'></div> </div>
