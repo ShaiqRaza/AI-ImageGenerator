@@ -7,7 +7,7 @@ const Footer = ({
 })=>{
     const [hovered, sethovered] = useState(false);
     return (
-        <form className="absolute bottom-8 flex justify-center w-full h-20 items-center" onSubmit={(e)=>{
+        <form className="absolute lg:bottom-8 md:bottom-6 sm:bottom-4 xs:bottom-3 bottom-2 flex justify-center w-full h-20 items-center" onSubmit={(e)=>{
             e.preventDefault()
             setPrompt(inputPrompt)
         }} onMouseEnter={()=>{
