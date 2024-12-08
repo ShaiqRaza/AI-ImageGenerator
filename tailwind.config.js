@@ -15,6 +15,9 @@ export default {
       animation: {
         marquee: 'marquee 7s linear infinite',
       },
+      screens:{
+        'xs': '350px',
+      },
     },
   },
   plugins: [],
